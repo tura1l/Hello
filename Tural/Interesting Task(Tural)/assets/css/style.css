@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: palevioletred;
+    width: 80%;
+    height: 80vh;
+    margin: 5% 10%;
+    border: 5px double red;
+}
+.kubik{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}

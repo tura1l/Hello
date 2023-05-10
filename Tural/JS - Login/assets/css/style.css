@@ -1,0 +1,20 @@
+.container{
+    width: 40%;
+    margin: 10% 30%;
+}
+button{
+    background-color: green;
+    border: 0px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.inp{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid silver;
+}

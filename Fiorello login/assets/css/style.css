@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 7% 10%;
+}
+.h1{
+    font-size: 32px;
+    font-weight: 500;
+}
+label{
+    font-size: 15.5px;
+    color: rgb(110, 109, 109);
+}
+.sub{
+    padding: 10px;
+    border: 1px solid silver;
+    outline: none;
+}
+.password{
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
+.login{
+    color: white;
+    padding: 13px 10px;
+    border: 0px;
+    background-color: rgb(199, 69, 69);
+    font-size: 10.5px;
+    margin-bottom: 15px;
+}
+.usarname{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/2);
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/2);
+}
+.remberme{
+    width: calc(100%/2);
+}
+@media (max-width:780px){
+    .remberme-tab{
+        width: calc(100%/1);
+    }
+    .password-tab{
+        width: calc(100%/1);
+    }
+    .username-tab{
+        width: calc(100%/1);
+    }
+}
+@media (max-width:380px){
+    .remberme-mob{
+        width: calc(100%/1);
+    }
+    .password-mob{
+        width: calc(100%/1);
+    }
+    .username-mob{
+        width: calc(100%/1);
+    }
+}

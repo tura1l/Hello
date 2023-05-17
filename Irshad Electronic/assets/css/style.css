@@ -1,0 +1,146 @@
+a{
+    color: rgb(94, 89, 89) !important; 
+}
+.button1{
+    padding: 3px 7px;
+    font-size: 13px;
+    border-color: orangered;
+    color: orangered;
+}
+.btn:hover{
+    background-color: orangered;
+    color: white;
+    border: 0px;
+}
+.underline :hover{
+    text-decoration: underline;
+    transition: 1s;
+}
+.b-s{
+    box-shadow: 0px 0px 0px .2px rgb(141, 140, 140);
+}
+.b{
+    border-right: 1px solid rgb(170, 166, 166);
+}
+.button2{
+    background-color: rgb(2, 168, 2);
+    border: 0px;
+    padding: 12px;
+    width: 110px; 
+    border-radius: 9px;
+}
+.las-bars{
+    color: rgb(255, 255, 255);
+}
+.searchin{
+    border: 1px solid rgb(212, 208, 208);
+    background-color: rgba(243, 243, 243, 0.733);
+    padding: 10px 20px;
+    border-radius: 7px;
+    width: 500px;
+    outline-color: orangered;
+}
+.la-search{
+    z-index: 1;
+    margin-left: -38px;
+    margin-top: 13px;
+    font-size: 20px;
+    border-left: 1px solid;
+    padding-left: 10px;
+    color: rgb(179, 178, 178);
+}
+.la-balance-scale{
+    font-size: 30px;
+    color: rgb(71, 69, 69);
+}
+.la-balance-scale:hover{
+    color: orangered;
+}
+.lar{
+    font-size: 30px;
+    color: rgb(71, 69, 69);
+}
+.lar:hover{
+    color: orangered;
+}
+.la-shopping-cart{
+    font-size: 30px;
+    color: rgb(71, 69, 69);
+}
+.la-shopping-cart:hover{
+    color: orangered;
+}
+.ic{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.ic:hover{
+    color: orangered;
+}
+.pay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(2, 168, 2);
+    background-color: white;
+    color: rgb(2, 168, 2);
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.pay:hover{
+    background-color:rgb(2, 168, 2) ;
+    color: white;
+}
+.month{
+    font-size: 15px;
+}
+.mob{
+    font-size: 13px;
+    color: grey;
+}
+.card-title{
+    font-size: 16px;
+}
+.colors{
+    display: flex;
+    gap: 10px;
+}
+.cblack{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.cyellow{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.cmilk{
+    width: 20px;
+    height: 20px;
+    background-color: wheat;
+    border-radius: 50%;
+}
+.cviolet{
+    width: 20px;
+    height: 20px;
+    background-color: purple;
+    border-radius: 50%;
+}
+.la-star{
+    color: rgb(255, 174, 0);
+    font-size: 20px;
+}
+.la-comment-alt{
+    font-size: 20px;
+}
+.comment{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

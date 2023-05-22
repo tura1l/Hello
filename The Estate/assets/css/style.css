@@ -1,0 +1,137 @@
+header {
+  background-image: url(https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg.webp);
+  height: 90vh;
+}
+
+nav {
+  background-color: transparent !important;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.Estate {
+  font-size: larger;
+  font-weight: 700;
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn1 {
+  border: 0px;
+  padding: 6px 20px;
+  background-color: rgb(228, 103, 58);
+  color: white;
+  border-radius: 8px;
+  font-weight: 400;
+}
+
+.loqoimg {
+  width: 70px;
+  height: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.number-btn {
+  float: right;
+}
+
+.find {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 600;
+  color: white;
+  margin-top: 100px;
+}
+
+.write {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.xet {
+  color: rgb(228, 103, 58);
+}
+
+.proper {
+  font-weight: 700;
+}
+
+.see {
+  color: gray;
+  font-weight: 500;
+}
+
+.card-title {
+  font-size: 17px;
+}
+
+.card-text {
+  font-size: 13px;
+  color: rgb(100, 100, 100);
+}
+
+.ic1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.ictitle {
+  font-size: 12px;
+}
+
+.miniic {
+  align-items: center;
+}
+
+.las {
+  font-size: 35px;
+}
+
+.comment {
+  font-size: 12px;
+}
+
+.row {
+  align-items: center;
+}
+
+.miniic {
+  gap: 10px;
+}
+
+.Etiket {
+  background-color: rgb(3, 3, 99);
+}
+
+.for {
+  color: white;
+  font-size: 12px;
+}
+
+.price {
+  color: white;
+  font-weight: 600;
+}
+
+.clients {
+  color: white;
+  background-image: url(https://preview.colorlib.com/theme/theestate/images/testimonials_background.jpg.webp);
+  transform: translate(0%, -30%) matrix(1, 0, 0, 1, 0, 0);
+  text-align: center;
+  padding: 60px;
+}/*# sourceMappingURL=style.css.map */

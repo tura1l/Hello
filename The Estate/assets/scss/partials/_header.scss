@@ -1,0 +1,49 @@
+header{
+    background-image: url(https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg.webp);
+    height: 90vh;
+}
+nav{
+    background-color: transparent !important;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+.Estate{
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+}
+.nav-link{
+    text-decoration: none;
+    color: $primary-color;
+    font-size: $font-nav-size;
+    font-weight: 700;
+}
+.btn1{
+    border: 0px;
+    padding: 6px 20px;
+    background-color: $primary-color2;
+    color: white;
+    border-radius: 8px;
+    font-weight: 400;
+}
+.loqoimg{
+    width: 70px;
+    height: 50px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.number-btn{
+    float: right;
+}
+.find{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+    color: white;
+    margin-top: 100px;
+}

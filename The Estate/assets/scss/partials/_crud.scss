@@ -1,0 +1,55 @@
+.write{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.xet{
+    color: $primary-color2;
+}
+.proper{
+    font-weight: 700;
+}
+.see{
+    color: gray;
+    font-weight: 500;
+}
+.card-title{
+    font-size: 17px;
+}
+.card-text{
+    font-size: 13px;
+    color: rgb(100, 100, 100);
+}
+.ic1{
+    display: flex;
+    flex-direction: column;
+}
+.ictitle{
+    font-size: 12px;
+}
+.miniic{
+    align-items: center;
+}
+.las{
+    font-size: 35px;
+}
+.comment{
+    font-size:  12px;
+}
+.row{
+    align-items: center;
+}
+.miniic{
+    gap: 10px;
+}
+.Etiket{
+    background-color: rgb(3, 3, 99);
+}
+.for{
+    color: white;
+    font-size: 12px;
+}
+.price{
+    color: white;
+    font-weight: 600;
+}

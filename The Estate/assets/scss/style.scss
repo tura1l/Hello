@@ -1,0 +1,14 @@
+@import 'partials/variables';
+@import 'partials/navbar';
+@import 'partials/header';
+@import 'partials/crud';
+.clients{
+    color: white;
+    background-image: url(https://preview.colorlib.com/theme/theestate/images/testimonials_background.jpg.webp);
+    transform: translate(0%, -30%) matrix(1, 0, 0, 1, 0, 0);
+    text-align: center;
+    padding: 60px;
+}
+.lorem{
+
+}

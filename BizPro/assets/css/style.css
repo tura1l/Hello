@@ -1,0 +1,179 @@
+header {
+  background-image: url(https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg.webp);
+  height: 100vh;
+}
+header nav .container1 {
+  padding-top: 15px;
+  width: 70%;
+  margin: 0 15%;
+}
+header nav .container1 .row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .container1 .row1 .list ul .nav-item {
+  display: inline-block;
+  list-style: none;
+}
+header nav .container1 .row1 .list ul .nav-item a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  margin: 0 6px;
+}
+header nav .container1 .row1 .list ul .nav-item a:hover {
+  color: rgb(216, 61, 77);
+  transition: 0.5s;
+}
+
+.headertext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  gap: 10px;
+}
+.headertext .hello {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+}
+.headertext .sub {
+  color: white;
+  font-size: 15px;
+}
+.headertext .ourbut {
+  border: 1px solid red;
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+  width: 140px;
+  padding: 10px 0px;
+  background: linear-gradient(to right, red 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+.headertext .ourbut:hover {
+  background-position: left bottom;
+}
+
+.about .abouttext {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.about .abouttext .bizpro {
+  font-size: 28px;
+  font-weight: 600;
+}
+.about .abouttext .tre {
+  border: 1px solid red;
+  width: 20px;
+}
+.about .abouttext .ipsom {
+  font-size: 14px;
+  color: rgb(71, 71, 71);
+  width: 65%;
+  text-align: center;
+}
+.about .jobs {
+  margin-bottom: 60px;
+}
+.about .jobs .cart1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+.about .jobs .cart1 .icon {
+  border-radius: 50%;
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  line-height: 100px;
+  background: linear-gradient(to right, red 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+.about .jobs .cart1 .icon:hover {
+  background-position: left bottom;
+  color: white;
+}
+.about .jobs .cart1 .iwrite .web {
+  font-size: 18px;
+  font-weight: 600;
+}
+.about .jobs .cart1 .iwrite .web:hover {
+  color: red;
+}
+.about .jobs .cart1 .iwrite .magna {
+  font-size: 12px;
+  color: rgb(121, 121, 121);
+}
+.about .jobs .cart1 .detail .detbut {
+  border: 1px solid red;
+  background-color: transparent;
+  font-size: 12px;
+  color: rgb(121, 121, 121);
+  padding: 7px 17px;
+  background: linear-gradient(to right, red 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  border: 1px solid red;
+}
+.about .jobs .cart1 .detail .detbut:hover {
+  background-position: left bottom;
+  color: white;
+}
+
+.portfolio .abouttext {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.portfolio .abouttext .bizpro {
+  font-size: 28px;
+  font-weight: 600;
+}
+.portfolio .abouttext .tre {
+  border: 1px solid red;
+  width: 20px;
+}
+.portfolio .abouttext .ipsom {
+  font-size: 14px;
+  color: rgb(71, 71, 71);
+  width: 65%;
+  text-align: center;
+}
+.portfolio .girls .imagec .gina .ginaimg {
+  width: 100%;
+}
+.portfolio .girls .imagec .ginaabout {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(228, 228, 228);
+}
+.portfolio .girls .imagec .ginaabout .ginaname {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(100, 99, 99);
+}
+.portfolio .girls .imagec .ginaabout .ginawork {
+  font-size: 12px;
+  font-weight: 100;
+}/*# sourceMappingURL=style.css.map */

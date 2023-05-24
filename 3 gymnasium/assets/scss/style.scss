@@ -1,0 +1,171 @@
+.gym{
+    box-shadow: 0px 1px 0px 0px #d6d6d6;
+   .helps{
+    font-size: 14px;
+    font-weight: 500;
+   }
+   .telephon{
+    gap:12px;
+    .tel{
+    font-size: 14px;
+    font-weight: 400;
+    }
+    .teleic{
+        background-color: rgb(255, 61, 61);
+        color: white;
+        padding: 22px 27px;
+        font-size: 20px;
+    }
+   }
+}
+.navbar{
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                color: black !important;
+                font-size: 13px;
+                font-weight: 400;
+                &:hover{
+                    color: red !important;
+                    transition: .3s;
+                }
+            }
+        }
+    }
+}
+.fitnes{
+    background-image: url(https://preview.colorlib.com/theme/gym/img/header-bg.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    .background{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100vh;
+    }
+    .fitneswrite{
+        text-align: center;
+        color: white;
+        width: 33%;
+        margin: 0 33.5%;
+        .real{
+    
+            font-weight: 700;
+            padding-top: 270px;
+        }
+        .shape{
+            font-size: 12px;
+        }
+    }
+}
+.care{
+    .weab{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        .what{
+            font-size: 28px;
+            font-weight: 700;
+        }
+        .who{
+            font-size: 13px;
+            color: rgb(109, 109, 109);
+        }
+    }
+    .carts{
+        justify-content:space-between ;
+        .cart1{
+            display: flex;
+            border-radius: 5px;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            box-shadow: 15px 20px 62px 12px #f5b3b3;
+            margin-bottom: 70px;
+            padding: 25px;
+            .regular{
+                margin-top: 15px;
+                font-size: 17px;
+                font-weight: 600;
+            }
+            .lorem{
+                font-size: 13px;
+                color: rgb(145, 145, 145);
+            }
+        }
+    }
+}
+.course{
+    .weab{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 70px;
+        .what{
+            font-size: 28px;
+            font-weight: 700;
+        }
+        .who{
+            font-size: 13px;
+            color: rgb(109, 109, 109);
+        }
+    }
+    .images{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1px;
+        .work1{
+            .sportimg{
+                position: relative;
+                .position{
+                    color: white;
+                    background-color: #F6214B;
+                    width: 100%;
+                    position: absolute;
+                    bottom: 2px;
+                    padding: 7px 30px;
+                    font-size: 13px;
+                    width: 160px;
+                    left: 20px;
+                }
+            }
+            .price{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 40px;
+                .run{
+                    font-weight: 600;
+                }
+                .prices{
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: #F6214B;
+                }
+            }
+        }
+    }
+}
+.fitnes2{
+    background-image: url(https://preview.colorlib.com/theme/gym/img/callto-bg.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    height: 56vh;
+    .background2{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 56vh;
+    }
+    .fitneswrite{
+        text-align: center;
+        color: white;
+        .real{
+    
+            font-weight: 700;
+            padding-top: 270px;
+        }
+        .shape{
+            font-size: 12px;
+        }
+    }
+}

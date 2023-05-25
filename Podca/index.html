@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header> 
+        <div class="background">
+        <div class="naviytem container">
+                <div class="loqo col-6">
+                <p class="loqow">Podca</p>
+                </div>
+                <div class="bar col-6">
+                    <i class="las la-bars"></i>
+                    </div>
+        </div>
+        <div class="navwrite">
+          <p class="episode">Episode 09: How To Create <br> Web Page Using Bootstrap 4</p>
+          <p class="mike">By Mike Smith | 16 September 2017 | 1:30:20</p>
+          <button class="read">READ THE TRANSCRIPT</button>
+        </div>
+           
+        </div>
+        <div class="musicbar">
+            <img class="makas w-100" src="./assets/img/Ekran görüntüsü 2023-05-25 150737.png" alt="">
+        </div>
+        
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="recent p-5">
+                <h3 class="text-center mt-5">Recent Podcasts</h3>
+            </div>  
+          
+        </div>
+    </div>
+    </div>
+    </section>
+    <button class="adminpanel"><a href="persons.html">Go To AdminPanel</a></button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+        function getLastestsDatas() {
+            fetch('https://646f46cf09ff19b12086e9ee.mockapi.io/People/')
+                .then(res => res.json())
+                .then(data => {
+                    const row = document.querySelector('.row');
+                    row.innerHTML = '';
+                    data.forEach(el => {
+                        row.innerHTML += `
+                    <div class="episod8 m-3">
+                        <img src="${el.profilPicture}" alt="#">
+                    <div class="episod1">
+                        <h3>${el.fulName}</h3>
+                        <p>${el.date}</p>
+                        <h6>${el.personText}</h6>
+                        <i class="lar la-pause-circle"></i>
+                    </div>
+                    </div>
+                    `
+                    })
+                })
+                .catch(err => console.log(err))
+        }
+        getLastestsDatas();
+
+    </script>
+</body>
+
+</html>

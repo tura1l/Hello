@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6">
+                <div class="posterimg">
+                <div class="abimg">
+                    <img style="width: 70%; height: auto;" src=" " alt="" class="filmimg">
+                </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="about" style="color: white;">
+                    <h1></h1>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+        const filmID =  window.location.search.substring(4)
+        $.ajax({
+            method: 'GET',
+            url: "https://api.tvmaze.com/shows/" + filmID,
+            success: function (res) {
+                    $('.row').append(
+                        ` <div class="col-6">
+                <div class="posterimg">
+                <div class="abimg">
+                    <img style="width: 70%; height: auto;" src="${res.image.original}" alt="" class="filmimg">
+                </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="about" style="color: white;">
+                    <h1>${res.name}</h1>
+                    <p class="janr"><b style="font-size: 20px;">Genres : </b>${res.genres}</p>
+                    <p class="janr"><b style="font-size: 20px;">Length : </b>${res.weight}</p>
+                    <p class="janr"><b style="font-size: 20px;">Start : </b>${res.premiered}</p>
+                    <p class="janr"><b style="font-size: 20px;">Final : </b>${res.ended}</p>
+                    <p class="janr"><b style="font-size: 20px;">Oficial Site : </b>${res.officialSite}</p>
+                </div>
+            </div>`)
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        })
+    </script>
+</body>
+</html>

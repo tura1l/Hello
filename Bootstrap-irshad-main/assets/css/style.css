@@ -1,0 +1,29 @@
+.w-15 {
+  width: 15%;
+}
+.w-10 {
+    width: 10%;
+}
+.search-inp{
+    right: 1px;
+    width: 55px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+}
+.icon {
+    display: block;
+}
+.card-img-top {
+    width: 250px;
+}
+.card-head {
+    position: relative;
+}
+.fa-xmark {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
